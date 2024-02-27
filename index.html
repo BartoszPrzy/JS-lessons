@@ -7,9 +7,24 @@
     <title>Document</title>
     <style>
         body {
-            background-color: #1e921a;
+            background-color: #000000;
             color: aqua;
+            
+            
+        background-image: url('pug.jpg');
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: center;
         }
+
+
+        .video-container {
+        position: absolute;
+        top: 100px;
+        left: 470px;
+        
+        }   
+
         h1{color: blue;}
         h2{color: beige;}
         h3{color: orange;}
@@ -17,6 +32,9 @@
         h5{color: violet;}
         h6{color: pink;}
         a:visited {color: pink;}
+        a:hover {color: blue;}
+        a:active {color:pink}
+
     </style>
 </head>
 
@@ -33,5 +51,7 @@
 
     hello world, Tosia
 
+    <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/S9STizATKjE?si=gB9hL-g0kcmFd5Bi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 </html>
