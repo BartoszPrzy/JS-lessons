@@ -1,54 +1,6 @@
-* {
-box-sizing: border-box;
-
-}
-
-html,
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-body {
-    display: flex;
-    background-color: #000000;
-    color: pink;
-    height: 100%;
-    
-
-
-    background-image: url('../img/pug.jpg');
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-h1 {
-    color: blue;
-}
-
-h2 {
-    color: beige;
-}
-
-h3 {
-    color: orange;
-}
-
-h4 {
-    color: red;
-}
-
-h5 {
-    color: violet;
-}
-
-h6 {
-    color: pink;
+    background-image: linear-gradient(rgba(51, 50, 50, 0.396), rgba(51, 50, 50, 0.396)), url('../img/pugies2.png');
+    background-size: cover;
 }
 
 a:visited {
@@ -63,6 +15,59 @@ a:active {
     color: pink
 }
 
+/* MENU */
+
+ul.inline-menu li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+ul.inline-menu li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid #212121;
+    border-radius: 10px;
+}
+
+ul.inline-menu li a:active {
+    color: beige;
+}
+
+ul.inline-menu li a:visited {
+    color: beige;
+}
+
+ul.inline-menu li a:hover {
+    color: blue;
+}
+
+/* MENU END */
+
+
+
+
+
+/* INDEX.HTML */
+.main-text {
+    margin-top: 50px;
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    color: beige;
+
+}
+
+/* INDEX END */
+
+
+
+
+
+
+/* LAYOUTS.HTML */
+
 .orange {
     color: orange
 }
@@ -70,12 +75,27 @@ a:active {
 .pink {
     color: pink;
 }
-.container {
-    width: 300px;
-    height: 300px;
-    background-color: #000000;
-    color: white;
+
+tr td {
+    border: 1px solid white;
+    color: #212121;
+    background-color: lightgray;
 }
+
+.test-table {
+    border-collapse: collapse;
+    margin-top: 50px;
+
+}
+
+/* LAYOUTS END */
+
+
+
+
+
+
+/* FUN.HTML */
 
 .flex {
     display: flex;
@@ -83,26 +103,61 @@ a:active {
     justify-content: space-around;
 
 }
-.fun-menu{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    align-items: stretch;
-}
-.video-container {
-    align-self: center;
-    justify-self: center;
-}
-.homework-menu {
-    display: flex;
-    flex-direction: column;
-}
-.layouts-menu {
-    display: flex;
-    flex-direction: column;
 
+.video-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
+
+.fun-list {
+    margin-top: 50px;
+    color: #fff700;
+}
+
+h1 {
+    color: #0000FF;
+}
+
+h2 {
+    color: #FF0000;
+}
+
+h3 {
+    color: orange;
+}
+
+/* FUN END */
+
+
+
+
+
+
+/* HOMEWORK.HTML */
+
 .homework-header {
     margin-left: 22px;
+    color: rgb(255, 206, 101);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
+
+.homework1 {
+    margin-top: 50px;
+}
+
+.deadline {
+    margin-left: 32px;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 3px #2f00ff, 0 0 5px #000000;
+}
+
+.homework2 li:hover {
+    color: #FF0000;
+}
+
+.homework3 li:hover {
+    color: #FF0000;
+}
+
+/* HOMEWORK END */
