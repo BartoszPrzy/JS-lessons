@@ -58,6 +58,15 @@ ul.inline-menu li a:hover {
     color: beige;
 
 }
+.fun-layout {
+    display: flex;
+    flex-direction: row;
+}
+.video-container {
+    flex-grow: 1;
+    align-self: center;
+    padding-right: 200px;
+}
 
 /* INDEX END */
 
