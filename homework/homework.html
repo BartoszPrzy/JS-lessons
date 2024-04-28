@@ -22,23 +22,23 @@
         <h3 class="homework-header">23.02.2024r</h3>
         <ol>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
-                <label for="checkbox1">
+                <input id="checkbox1" type="checkbox" checked/>
+                <label for="checkbox">
                 <a target="_blank"
                     href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">homework</a></label>
             </li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 <a href="https://flexboxfroggy.com/#pl">flexbox</a></label>
             </li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 <a href="https://cssgridgarden.com/#pl">Grid Garden</a></label>
             </li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">Display</a></label>
             </li>
@@ -49,19 +49,19 @@
         <h3 class="homework-header">10.03.2024r</h3>
         <ol>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">ujednolicić wszystkie strony - nagłowek i sidebar muszą być takie same</label>
             </li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1" />
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">holygrail layout</label>
             </li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1" />
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">formularze - mdn input,mdn form</label>
                 </li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1" />
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">strona pokazująca ile stopni celsiusza to ile fahrenheit, metry do stóp, kg do funtów</label>
                 </li>
 
@@ -73,51 +73,51 @@
         <h3 class="homework-header">13.03.2024r</h3>
         <ol>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 usunąć border pionowy</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 border collapse</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 flat design, material design</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 wyśrodkowanie strony</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 niech strona wygląda dobrze na różnych ekranach</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 position sticky (nagłówek)</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 table background gradient od niebieskiego do czerwonego</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 readme w repo</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 switch to english everywhere</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 ascetyczne podejście do designu</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked/>
                 <label for="checkbox1">
                 input type numeric</label></li>
             <li>
-                <input id="checkbox1" type="checkbox" disabled checked value="1"/>
+                <input id="checkbox1" type="checkbox" checked>
                 <label for="checkbox1">
                 UX vs UI</label></li>
 
@@ -128,8 +128,16 @@
         </ol>
     </div>
 
-
-
 </body>
+
+<script>
+    // Select the checkbox element
+    let checkbox = document.getElementById('checkbox1');
+    
+    // Ensure checkbox stays checked
+    checkbox.addEventListener('click', function(event) {
+        this.checked = true;
+    });
+</script>
 
 </html>
