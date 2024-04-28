@@ -168,8 +168,9 @@ h3 {
 .homework3 li:hover {
     color: #FF0000;
 }
-/* Ukrycie domyślnego checkboxa */
-
+.homework4 li:hover {
+    color: #FF0000;
+}
 
 input[type='checkbox'] {
     accent-color: rgb(208, 240, 25);
