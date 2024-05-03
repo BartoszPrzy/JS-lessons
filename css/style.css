@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(rgba(51, 50, 50, 0.396), rgba(51, 50, 50, 0.396)), url('../img/pugies2.png');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 a:visited {
