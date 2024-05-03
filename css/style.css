@@ -1,3 +1,14 @@
+@media only screen and (max-width: 600px) {
+.inline-menu {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    white-space: normal;
+    line-height: 2.5em;
+    
+}
+}
+
 body {
     background-image: linear-gradient(rgba(51, 50, 50, 0.396), rgba(51, 50, 50, 0.396)), url('../img/pugies2.png');
     background-size: cover;
@@ -165,14 +176,14 @@ h3 {
 }
 
 .homework2 li:hover {
-    color: #FF0000;
+    color: #ffffff;
 }
 
 .homework3 li:hover {
-    color: #FF0000;
+    color: #ffffff;
 }
 .homework4 li:hover {
-    color: #FF0000;
+    color: #ffffff;
 }
 
 input[type='checkbox'] {
