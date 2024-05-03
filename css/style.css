@@ -147,9 +147,10 @@ h3 {
 /* HOMEWORK.HTML */
 
 .homework-header {
-    margin-left: 22px;
-    color: rgb(255, 206, 101);
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    margin-left: 50px;
+    color: rgb(252, 177, 15);
+    text-shadow: 0 0 3px #787878, 0 0 5px #000000;
+    margin-top: 50px;
 }
 
 .homework1 {
@@ -157,9 +158,10 @@ h3 {
 }
 
 .deadline {
-    margin-left: 32px;
-    color: rgb(255, 0, 0);
-    text-shadow: 0 0 3px #2f00ff, 0 0 5px #000000;
+    margin-left: 42px;
+    margin-top: 10px;
+    color: rgb(230, 228, 228);
+    text-shadow: 0 0 3px #b9aeed, 0 0 5px #000000;
 }
 
 .homework2 li:hover {
