@@ -5,14 +5,15 @@
         flex-wrap: wrap;
         white-space: normal;
         line-height: 2.5em;
-
     }
+
+
 }
 
 body {
     background-image: linear-gradient(rgba(51, 50, 50, 0.396), rgba(51, 50, 50, 0.396)), url('../img/pugies2.png');
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 
 a:visited {
@@ -120,6 +121,36 @@ tr td {
 
 /* FUN.HTML */
 
+.fun-page {
+    @media only screen and (max-width: 1000px) {
+        .inline-menu {
+            display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        white-space: normal;
+        line-height: 2.5em;
+        }
+        .fun-layout{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .video-container {
+            position: relative;
+            width: auto;
+            padding-bottom: 56.25%;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+
+}
+}
 .flex {
     display: flex;
     align-items: center;
@@ -159,6 +190,9 @@ h3 {
 
 /* HOMEWORK.HTML */
 
+.homework-page {
+    background-size: contain;
+}
 .homework-header {
     margin-left: 50px;
     color: rgb(252, 177, 15);
@@ -213,20 +247,40 @@ h3 {
 .deadline {
     margin-left: 42px;
     margin-top: 10px;
-    color: rgb(230, 228, 228);
+    color: rgb(235, 233, 118);
     text-shadow: 0 0 3px #b9aeed, 0 0 5px #000000;
 }
 
+.homework2 {
+    color: white;
+}
+
 .homework2 li:hover {
-    color: #ffffff;
+    color: #fae34d;
+}
+
+.homework3 {
+    color: white;
 }
 
 .homework3 li:hover {
-    color: #ffffff;
+    color: #fae34d;
+}
+
+.homework4 {
+    color: white;
 }
 
 .homework4 li:hover {
-    color: #ffffff;
+    color: #fae34d;
+}
+
+.homework5 {
+    color: white;
+}
+
+.homework5 li:hover {
+    color: #fae34d;
 }
 
 input[type='checkbox'] {
