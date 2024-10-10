@@ -61,10 +61,39 @@
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe></div>
-    </div>
+
+            </div>
+            <div id="dadIcon" class ="dadIcon">
+                <p><img src="../img/father.png" alt="icon" style="width:64px; height:64px;">
+            <div id = "dadJoke" class = "dadJoke"></div>
+                </div>
+
 
 
 
 </body>
+<script>
+
+const url = "https://api.chucknorris.io/jokes/random";
+
+window.onload = function() {
+    let div = document.querySelector("#dadJoke");
+    getJoke(function (data) {
+            div.innerHTML = data.value;
+        });
+    setInterval(function() {
+        getJoke(function (data) {
+            div.innerHTML = data.value;
+        });
+    }, 8000);
+}
+
+function getJoke(callback) {
+    fetch(url)
+    .then( response => response.json() )
+    .then( callback );
+};
+
+</script>
 
 </html>

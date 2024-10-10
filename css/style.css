@@ -170,6 +170,16 @@ tr td {
     align-content: center;
     justify-content: center;
 }
+.dadIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dadJoke {
+    color: rgb(252, 177, 15);
+    text-shadow: 0 0 3px #787878, 0 0 5px #000000;
+
+}
 
 .fun-list {
     margin-top: 50px;
